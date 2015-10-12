@@ -1,0 +1,9 @@
+---
+applications:
+- name: gotty
+  memory: 128M
+  instances: 1
+  host: gotty
+  path: .
+  buildpack: binary_buildpack
+  command: $HOME/gotty -p "$PORT" -w -c "user:pwsrocks" /bin/bash
