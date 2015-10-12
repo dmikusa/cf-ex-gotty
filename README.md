@@ -1,5 +1,7 @@
 ## gotty on CF
 
+Run [gotty](https://github.com/yudai/gotty) on CF.
+
 ### Instructions
 
 1. Clone this repo.
